@@ -1,0 +1,23 @@
+.boxshadow {
+    -webkit-box-shadow: -1px -2px 22px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -2px 22px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -2px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+.labelcls:after {
+    content: " *";
+    color: red;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: "red";
+}

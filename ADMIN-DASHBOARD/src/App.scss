@@ -1,0 +1,15 @@
+.boxshadow{
+    margin: 1rem;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%);
+    border-radius: 5px;
+}
+.inputPlaceholder{
+    border: none;
+    outline: none;
+    background: transparent;
+    &::placeholder{
+        font-size: 12px;
+    }
+}

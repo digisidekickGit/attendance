@@ -1,0 +1,61 @@
+
+.userTable{
+    height: 75vh;
+    width: 100%;
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+        .cellImg{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+    .userStatus {
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+            font-weight: 600;
+       
+        &.Deactivate{
+            color: red;
+            background-color: rgba(255, 0, 0, 0.181);
+        }
+        
+        &.Activate{
+            color: green;
+            background-color: rgba(0, 128, 0,0.2);
+          
+        }
+        &.passive{
+            color: goldenrod;
+            background-color: #dfa51321;
+        }
+       
+    }
+    .Action-button{
+        display: flex;
+        width: 100%;
+        text-align: center; 
+        .Action-button-delete {
+            font-weight: 400;
+            color: red;
+            background-color: rgba(255, 0, 0, 0.181);
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0px 10px;
+        }
+        .Action-button-view {
+            cursor: pointer;
+            font-weight: 400;
+            color: rgb(0, 30, 255);
+          
+            padding: 5px;
+            border-radius: 5px;
+            border: 2px solid rgba(0, 30, 255, 0.197);
+        }
+    }
+
+}

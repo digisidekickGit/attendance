@@ -1,0 +1,20 @@
+.UserList{
+    display: flex;
+    // height: 100vh;
+    
+  
+    hr {
+      height: 0;
+      border: 0.1px solid gray;
+    }
+    h1{
+      font-weight: 700;
+      color: gray;
+      // font-size: 1rem
+    }
+    .UserList-table{
+        padding: 10px;
+        flex: 6;
+        border-left: 2px solid gray;
+    }
+}

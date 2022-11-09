@@ -1,0 +1,59 @@
+.User-Card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+.User-Card-header{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+    color: gray;
+    span{
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: 400;
+        color: rgb(47, 0, 255);
+        background-color:rgba(47, 0, 255, 0.216);
+
+    }
+    .edit-icon{
+        font-size: 15px;
+    }
+    
+}
+.User-Card-footer{
+    display: flex;
+    justify-content: space-evenly;
+    // align-content: center;
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        align-self: center;
+        object-fit: cover;
+    }
+    p{
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: gray;
+   
+    }
+    ul{
+        list-style-type: none;
+        span{
+            font-weight: 700;
+            padding-right: 3px;
+        }
+        li{
+            display: flex;
+            h2{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+}
